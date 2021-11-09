@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-index {
+  background-image: url(../img/login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.formulario {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+  color: white;
+}
+
+.form-control {
+  background: rgba(0, 0, 0, 0.6);
+  border-style: none;
+  transition: 0.5s ease-in;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  background: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+.ingresar {
+  background: #222a3f;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700 !important;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+  color: white;
+  transition: 0.5s ease-in;
+}
+
+.ingresar:hover {
+  color: white;
+}
+
+.olvide {
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+}
+
+.olvide:hover {
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+
+.registrar {
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-size: 12px;
+  font-weight: 700 !important;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.registrar:hover {
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+
+.container3 {
+  margin-top: 0;
+  width: 100%;
+  height: 15%;
+  background-color: rgb(30, 77, 135);
+}
+
+.container2 {
+  margin-top: 150px;
+  position: fixed;
+  width: 100%;
+  height: 80%;
+}
+
+.sidebar {
+  width: 200px;
+  height: 250%;
+  background: rgb(30, 77, 135);
+}
+
+.sidebar2 {
+  width: 200px;
+  height: 10%;
+  background: rgb(30, 77, 135);
+}
+
+.sidebar2 img {
+  padding-top: 0px;
+  margin-left: 20px;
+  opacity: 0.8;
+  border-style: none;
+}
+
+.side-hide {
+  float: left;
+  color: white;
+  opacity: 0.2;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 12px 20px;
+}
+
+.sidebar ul li:hover {
+  background: rgb(145, 145, 153);
+  cursor: pointer;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+
+.container4 {
+  margin-left: 200px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home {
+  width: 20px;
+  height: 20px;
+}
+
+.img-home {
+  width: 20px;
+  height: 19px;
+}
+
+.img-mtto {
+  width: 20px;
+  height: 19px;
+}
+
+.img-human {
+  width: 25px;
+  height: 19px;
+}
+
+.img-cam {
+  width: 20px;
+  height: 19px;
+}
+
+.img-tracking {
+  width: 20px;
+  height: 19px;
+}
+
+.img-logout {
+  width: 20px;
+  height: 19px;
+}
